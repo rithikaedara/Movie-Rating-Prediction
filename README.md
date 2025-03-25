@@ -11,7 +11,7 @@ This project focuses on predicting movie ratings based on various features using
  ┣ 📜 README.md       # Project documentation
 ```
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. **Clone the Repository:**  
    ```bash
@@ -30,7 +30,7 @@ This project focuses on predicting movie ratings based on various features using
      import pickle
      with open('models/xgboost_movie_rating_model.pkl', 'rb') as file:
          model = pickle.load(file)
-'''
+
 This repository contains all necessary files to understand and use the model. 
 
 
