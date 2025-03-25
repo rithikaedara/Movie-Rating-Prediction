@@ -3,7 +3,7 @@
 ## Project Overview
 This project focuses on predicting movie ratings based on various features using machine learning techniques. The model is trained in **Google Colab**, leveraging datasets and saving trained models for future use.
 
-## Repository Structure
+## 📁 Repository Structure
 ```
 📦 Movie-Rating-Prediction
  ┣ 📂 data            # Contains datasets (CSV files)
@@ -11,22 +11,29 @@ This project focuses on predicting movie ratings based on various features using
  ┣ 📜 README.md       # Project documentation
 ```
 
-## Model Training & Implementation
-- The code for data preprocessing, model training, and evaluation is executed in **Google Colab**.
-- Trained models are saved in the `models/` directory for future predictions.
-- The dataset files used for training are stored in the `data/` directory.
+## 🚀 How to Run the Project
 
-## Dependencies
-- We have **not** pushed a `requirements.txt` file to the repository.
-- To run the code, manually install the required libraries in Google Colab using:
-  ```python
-  !pip install numpy pandas scikit-learn xgboost
-  ```
+1. **Clone the Repository:**  
+   ```bash
+   git clone https://github.com/rithikaedara/Movie-Rating-Prediction.git
+   cd Movie-Rating-Prediction
+   ```
 
-## Usage
-1. Download the repository contents.
-2. Open the **Google Colab** notebook (not included in the repo but used for training).
-3. Load the dataset from `data/` and train the model.
-4. Save the trained model in `models/`.
-5. Use the trained model for movie rating predictions.
+2. **Prepare the Data:**  
+   - The dataset is available in the `data` folder.
+   - Ensure you have the necessary dependencies installed (e.g., pandas, scikit-learn, xgboost).
+
+3. **Load and Use the Model:**  
+   - The trained model is available in the `models` folder.
+   - You can load and use it in a Python script:
+     ```python
+     import pickle
+     with open('models/xgboost_movie_rating_model.pkl', 'rb') as file:
+         model = pickle.load(file)
+'''
+This repository contains all necessary files to understand and use the model. 
+
+
+
+
 
